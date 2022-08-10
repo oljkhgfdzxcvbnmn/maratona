@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockoffeetC</title>
+
+</head>
+
+<style>
+    body{
+        background-color: #ffedd5;
+        color: black;  
+        font-family: font-family: 'Roboto', sans-serif;
+  
+      }
+    ul{
+        list-style: nome;
+    }
+    *{
+        margin: 0;
+        padding: 0;      
+    }
+    header{       
+        border:1px solid red;
+        text-align: center;
+        padding: 32px 0;
+    }
+    header h1 span {
+        color: coral;
+    }
+    header h1{
+        margin-bottom: 4px;
+    }
+    section{
+        margin-bottom: 24px;
+    }
+    section h2{
+        background-color: #fed7aa;
+        padding: 8px 16px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    header, section{
+        max-width: 300px;
+        /*border: 1px solid red;*/
+        margin: 0;
+    }
+    ul li{
+        margin-bottom: 16px;
+        display: flex;
+    }
+    li .details{
+        max-width: 240px;
+
+    }
+    details h3{
+        margin-bottom: 8px;
+    }
+    h1, h2, h3, .price{
+        font-family: 'Roboto Serif', serif;
+        
+    }
+</style>
+
+
+<body>
+   <header>
+    <div>
+        <h1>Rocke<span>Coffe</span></h1>
+        <p>Aberto todos os dias 8h- 21h</p>
+    </div>    
+   </header>
+   <section>
+        <h2> Brunch</h2>
+        <ul>
+            <li>
+                <div class="details">
+                    <h3>Waffer doce</h3>
+                    <p class="description">
+                         esse at vero provident reiciendis, ipsa facilis, debitis odit possimus voluptate quo quaerat suscipit corporis cumque modi corrupti ab.
+                    </p>
+                </div>
+                <strong class="price">
+                    37,00
+                </strong>
+            </li>
+            <li>
+                <div class="details">
+                    <h3>Maça doce</h3>
+                    <p class="description">
+                        Commodi magnam aliquid esse at vero provident reiciendis, ipsa facilis, debitis odit possimus voluptate quo quaerat suscipit corporis cumque modi corrupti ab.
+                    </p>
+                </div>
+                <strong class="price">
+                    37,00
+                </strong>
+            </li>
+            <li>
+                <div class="details">
+                    <h3>Outro doces</h3>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odi corrupti ab.
+                    </p>
+                </div>
+                <strong class="price">
+                    37,00
+                </strong>
+
+            </li>
+        </ul>
+   </section>
+   <section>
+    <h2> Bebidas</h2>
+    <ul>
+        <li>
+            <div class="details">
+                <h3>Refri</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnamab.
+                </p>
+            </div>
+            <strong class="price">
+                10,00
+            </strong>
+        </li>
+        <li>
+            <div class="details">
+                <h3>Agua</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Comi corrupti ab.
+                </p>
+            </div>
+            <strong class="price">
+                7,00
+            </strong>
+        </li>
+        <li>
+            <div class="details">
+                <h3>Vinho</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ci corrupti ab.
+                </p>
+            </div>
+            <strong class="price">
+                15,00
+            </strong>
+
+        </li>
+    </ul>
+</section>
+<section>
+    <h2> Comida</h2>
+    <ul>
+        <li>
+            <div class="details">
+                <h3>Prato</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnamab.
+                </p>
+            </div>
+            <strong class="price">
+                19,00
+            </strong>
+        </li>
+        <li>
+            <div class="details">
+                <h3>Comidaa</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Comi corrupti ab.
+                </p>
+            </div>
+            <strong class="price">
+                5,00
+            </strong>
+        </li>
+        <li>
+            <div class="details">
+                <h3>Item</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ci corrupti ab.
+                </p>
+            </div>
+            <strong class="price">
+                5,00
+            </strong>
+
+        </li>
+    </ul>
+</section>
+</body>
+</html>
